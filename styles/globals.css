@@ -1,0 +1,26 @@
+@import url('https://db.onlinewebfonts.com/c/31ed0189fe1ff1e740a652e0f75b77dc?family=Snell+Roundhand+Script');
+
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.scroll-snap-y {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: screen;
+  min-width: full; 
+}
+
+
+
