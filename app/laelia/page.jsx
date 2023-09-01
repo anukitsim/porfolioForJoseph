@@ -57,6 +57,7 @@ const Laelia = () => {
           width={400}
           height={400}
           className="mt-7 mb-7"
+          priority
         />
         <h2 className="w-6/12 ffont-didact text-2xl mt-10 tracking-tight mb-7">
           Dragonfly Scarf Shot in New York City by Dean Holmes. Modeled by
@@ -70,12 +71,14 @@ const Laelia = () => {
             alt="laelia-logo"
             width={500}
             height={400}
+            priority
           />
           <Image
             src="/images/scarf2.jpg"
             alt="laelia-logo"
             width={500}
             height={400}
+            priority
           />
         </div>
       </div>
@@ -93,6 +96,7 @@ const Laelia = () => {
           width={500}
           height={500}
           className="mb-7 mt-7"
+          priority
         />
       </div>
       <div className="w-full bg-[#ff5300] h-screen md:h-auto flex flex-col max-[1000px]:flex-col max-[1000px]:h-auto">
@@ -118,6 +122,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            priority
           />
           <Image
             src="/images/gila2.jpg"
@@ -125,6 +130,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            priority
           />
         </div>
         <div className="w-full bg-white flex flex-row justify-center mt-10 max-[1000px]:flex-col">
@@ -134,6 +140,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            priority
           />
           <Image
             src="/images/gila-dress.jpg"
@@ -141,6 +148,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            priority
           />
         </div>
         <div className="flex flex-col items-center max-[1000px]:flex-col">
@@ -155,6 +163,7 @@ const Laelia = () => {
               width={500}
               height={400}
               className="mb-7 mt-7 items-start"
+              priority
             />
             <Image
               src="/images/creams2.jpg"
@@ -162,6 +171,7 @@ const Laelia = () => {
               width={500}
               height={400}
               className="mb-7 mt-7 items-start"
+              priority
             />
           </div>
         </div>
@@ -185,6 +195,7 @@ const Laelia = () => {
             alt="laelia-logo"
             width={500}
             height={500}
+            priority
             
           />
           <Image
@@ -193,6 +204,7 @@ const Laelia = () => {
             alt="laelia-logo"
             width={300}
             height={200}
+            priority
             
           />
         </div>
@@ -208,6 +220,8 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            priority
+            
           />
           <Image
             src="/images/tree-dress.jpg"
@@ -215,6 +229,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            priority
           />
         </div>
           

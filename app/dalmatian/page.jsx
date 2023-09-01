@@ -21,11 +21,11 @@ const Dalmatian = () => {
             </span>
           </p>
         </div>
-        <Image src="/images/dalmatian.jpg" width={400} height={400} />
+        <Image src="/images/dalmatian.jpg" width={400} height={400} priority/>
       </div>
       <div className="flex flex-row items-cente max-[1000px]:flex-col">
         <div className="w-6/12 max-[1000px]:w-full">
-          <Image src="/images/dalmatian-poster.jpg" width={400} height={400} />
+          <Image src="/images/dalmatian-poster.jpg" width={400} height={400} priority/>
         </div>
         <div className="w-6/12 max-[1000px]:w-full">
           <p className="text-white font-didact text-center">
@@ -42,9 +42,9 @@ const Dalmatian = () => {
         
       </div>
       <div className="w-full grid grid-cols-3 grid-rows-2 max-[1000px]:flex-col">
-      <Image src="/images/left.jpg" width={400} height={400} className='col-start-1 row-start-2'/>
-      <Image src="/images/middle.jpg" width={400} height={400} className='col-start-2 row-start-1'/>
-      <Image src="/images/right.jpg" width={400} height={400} className='col-start-3 row-start-2'/>
+      <Image src="/images/left.jpg" width={400} height={400} className='col-start-1 row-start-2' priority/>
+      <Image src="/images/middle.jpg" width={400} height={400} className='col-start-2 row-start-1' priority/>
+      <Image src="/images/right.jpg" width={400} height={400} className='col-start-3 row-start-2' priority/>
 
       </div>
     </div>

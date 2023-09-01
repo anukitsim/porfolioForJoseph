@@ -9,6 +9,7 @@ const About = () => {
           alt="profile-picture"
           width={500}
           height={500}
+          priority
         />
       </div>
       <div className="w-6/12 flex flex-col items-start gap-y-10  text-center font-bold justify-center max-[1000px]:w-full max-[1000px]:text-left">
