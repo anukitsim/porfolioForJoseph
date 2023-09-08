@@ -6,7 +6,7 @@ const Dalmatian = () => {
       <div className="flex flex-row gap-20 max-[1000px]:flex-col">
         <div className="w-6/12 max-[1000px]:w-full">
           <p className="text-white font-didact">
-            <span className="text-6xl font-bold">DALMATIAN </span>
+            <span className="text-6xl font-bold"><a href="dalmatianofficial.com" target='_blank'>DALMATIAN</a></span>
             <span className="text-3xl font-bold">
               is a space for expression. Created by Joseph McCain and Owen
               Mahoney, this page is meant to showcase the creations of two
@@ -16,7 +16,8 @@ const Dalmatian = () => {
               <br />
               <span className="text-3xl font-bold">
                 Since starting in 2021, we have booked numerous sold out shows,
-                released a couple interviews, and founded a DJ radio.
+                released a couple interviews, and founded a 
+                <a href="https://on.soundcloud.com/c7WzNRkZMg9tiRtAA" target='_blank'> DJ radio.</a>
               </span>
             </span>
           </p>

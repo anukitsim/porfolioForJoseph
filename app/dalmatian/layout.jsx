@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-black">
-        <div>
+      <div className="fixed top-0 left-0 bg-black right-0 shadow-md p-4 z-50"
+
+>
         <div className="flex flex-row justify-between mx-20 items-center">
       <ul>
         <li>

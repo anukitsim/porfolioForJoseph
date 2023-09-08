@@ -2,12 +2,8 @@
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 
-
-
-
 const Menu = () => {
   const [isOpen, setOpen] = useState(false);
-  
 
   const toggle = () => {
     setOpen(!isOpen);
@@ -17,10 +13,11 @@ const Menu = () => {
     setOpen(false);
   };
 
-  
-
   return (
-    <div className="flex flex-row justify-between mx-20 items-center">
+    <div className="fixed top-0 left-0 bg-white right-0 shadow-md p-4 z-50"
+
+    >
+<div className="flex flex-row justify-between mx-20 items-center ">
       <ul>
         <li>
           <a href="/" className="text-2xl my-5 mx-5 font-custom list-none">
@@ -39,9 +36,7 @@ const Menu = () => {
             height: "100%",
             right: "0",
             backdropFilter: "blur(5px)",
-            flexDirection: "row-reverse"
-
-            
+            flexDirection: "row-reverse",
           }}
           onClick={closeMenu}
         >
@@ -77,8 +72,9 @@ const Menu = () => {
         </div>
       )}
     </div>
+    </div>
+    
   );
 };
 
 export default Menu;
-

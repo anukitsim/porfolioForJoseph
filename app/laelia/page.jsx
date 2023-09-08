@@ -17,7 +17,9 @@ const Laelia = () => {
         <div className="md:w-5/12 flex items-center">
           <p className="text-4xl">
             {" "}
-            <span className="text-8xl">Laelia</span>
+            <span className="text-8xl">
+              <a href="instagram.com/laeliagardin ">Laelia </a>
+            </span>
             <span>
               is my personal artist name that I release all my creative work
               under. Orchids have always been my favorite flower and Laelia is
@@ -26,13 +28,20 @@ const Laelia = () => {
             <br />
             <br />
             <span>
-              This usually includes clothing and guitar but has extended to
-              other mediums such as photography.
+              This usually includes fabric prints for fashion and guitar but has
+              extended to other mediums such as photography.
             </span>{" "}
           </p>
         </div>
         <div className="md:w-7/12 relative max-[1000px]:flex-col">
-          <Image src="/images/laelia.jpg" alt="laelia-logo" fill priority />
+          <Image
+            src="/images/laelia-logo.jpg"
+            alt="laelia-logo"
+            width={500}
+            height={500}
+            sizes="(min-width: 1960px) 849px, (min-width: 1040px) 43.33vw, (min-width: 780px) 401px, (min-width: 680px) 640px, calc(94.44vw + 17px)"
+            priority
+          />
         </div>
       </div>
       <div className="w-full bg-[#87ca87] h-auto md:h-[300%] flex flex-col items-center relative max-[1000px]:flex-col">
@@ -53,32 +62,34 @@ const Laelia = () => {
         </p>
         <Image
           src="/images/butterfly.jpg"
-          alt="laelia-logo"
+          alt="butterfly"
           width={400}
           height={400}
           className="mt-7 mb-7"
-          priority
+          sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
         />
         <h2 className="w-6/12 ffont-didact text-2xl mt-10 tracking-tight mb-7">
           Dragonfly Scarf Shot in New York City by Dean Holmes. Modeled by
           Ashley Franklin, Annika Santhanam, and Dia Darko. Creative direction
           by me. (February 2022)
         </h2>
-        <div className="flex flex-col md:flex-row gap-5 mb-7 max-[1000
-          px]:flex-col">
+        <div
+          className="flex flex-col md:flex-row gap-5 mb-7 max-[1000
+          px]:flex-col"
+        >
           <Image
             src="/images/scarf1.jpg"
             alt="laelia-logo"
             width={500}
             height={400}
-            priority
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
           <Image
             src="/images/scarf2.jpg"
             alt="laelia-logo"
             width={500}
             height={400}
-            priority
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
         </div>
       </div>
@@ -96,7 +107,7 @@ const Laelia = () => {
           width={500}
           height={500}
           className="mb-7 mt-7"
-          priority
+          sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
         />
       </div>
       <div className="w-full bg-[#ff5300] h-screen md:h-auto flex flex-col max-[1000px]:flex-col max-[1000px]:h-auto">
@@ -130,7 +141,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
-            priority
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
         </div>
         <div className="w-full bg-white flex flex-row justify-center mt-10 max-[1000px]:flex-col">
@@ -140,7 +151,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
-            priority
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
           <Image
             src="/images/gila-dress.jpg"
@@ -148,7 +159,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
-            priority
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
         </div>
         <div className="flex flex-col items-center max-[1000px]:flex-col">
@@ -163,7 +174,7 @@ const Laelia = () => {
               width={500}
               height={400}
               className="mb-7 mt-7 items-start"
-              priority
+              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
             />
             <Image
               src="/images/creams2.jpg"
@@ -171,7 +182,7 @@ const Laelia = () => {
               width={500}
               height={400}
               className="mb-7 mt-7 items-start"
-              priority
+              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
             />
           </div>
         </div>
@@ -190,51 +201,45 @@ const Laelia = () => {
           tree that I found particularly striking.
         </p>
         <div className="flex flex-row gap-2 mt-7 max-[1000px]:flex-col">
-        <Image
+          <Image
             src="/images/gila1.jpg"
             alt="laelia-logo"
             width={500}
             height={500}
-            priority
-            
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
           <Image
-           
-           src='/images/gila1.jpg'
+            src="/images/gila1.jpg"
             alt="laelia-logo"
             width={300}
             height={200}
-            priority
-            
+            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
           />
         </div>
-      
+
         <div className="w-full bg-white flex flex-col items-center mt-10 max-[1000px]:flex-col">
-        <h2 className="font-didact text-2xl font-extrabold mt-5 tracking-wider">
-        Tree Print Skirt Idea 
-        </h2>
-        <div className="flex flex-row justify-center max-[1000px]:flex-col">
-        <Image
-            src="/images/tree-girl.jpg"
-            alt="laelia-logo"
-            width={500}
-            height={500}
-            className="mb-7 mt-7 items-start"
-            priority
-            
-          />
-          <Image
-            src="/images/tree-dress.jpg"
-            alt="laelia-logo"
-            width={500}
-            height={500}
-            className="mb-7 mt-7 items-start"
-            priority
-          />
+          <h2 className="font-didact text-2xl font-extrabold mt-5 tracking-wider">
+            Tree Print Skirt Idea
+          </h2>
+          <div className="flex flex-row justify-center max-[1000px]:flex-col">
+            <Image
+              src="/images/tree-girl.jpg"
+              alt="laelia-logo"
+              width={500}
+              height={500}
+              className="mb-7 mt-7 items-start"
+              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            />
+            <Image
+              src="/images/tree-dress.jpg"
+              alt="laelia-logo"
+              width={500}
+              height={500}
+              className="mb-7 mt-7 items-start"
+              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            />
+          </div>
         </div>
-          
-        </div>
-       
       </div>
     </main>
   );
