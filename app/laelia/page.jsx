@@ -12,11 +12,10 @@ const Laelia = () => {
   }, []);
 
   return (
-    <main className="flex flex-col gap-5 container mx-auto max-[100px]:flex max-[1000px]:flex-col max-[1000px]:gap-10">
-      <div className="w-full h-screen flex flex-col md:flex-row gap-5 max-[1000px]:flex-col">
+    <main className="flex flex-col gap-5">
+      <div className="flex flex-row mt-10">
         <div className="md:w-6/12 flex items-center">
           <p className="text-4xl">
-            {" "}
             <span className="text-8xl">
               <a href="instagram.com/laeliagardin ">Laelia </a>
             </span>
@@ -30,7 +29,7 @@ const Laelia = () => {
             <span>
               This usually includes fabric prints for fashion and guitar but has
               extended to other mediums such as photography.
-            </span>{" "}
+            </span>
           </p>
         </div>
         <div className="md:w-6/12 relative max-[1000px]:flex-col">
@@ -39,7 +38,7 @@ const Laelia = () => {
             alt="laelia-logo"
             width={500}
             height={500}
-            sizes="(min-width: 1280px) 500px, (min-width: 1040px) calc(18.64vw + 265px), (min-width: 780px) 401px, (min-width: 540px) 500px, calc(90.91vw + 27px)" 
+            sizes="(min-width: 1280px) 500px, (min-width: 1040px) calc(18.64vw + 265px), (min-width: 780px) 401px, (min-width: 540px) 500px, calc(90.91vw + 27px)"
             className="w-full h-auto"
             priority
           />
@@ -66,7 +65,7 @@ const Laelia = () => {
           alt="butterfly"
           width={400}
           height={400}
-          className="mt-7 mb-7"
+          className='mt-7 mb-7'
           sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
         />
         <h2 className="w-6/12 ffont-didact text-2xl mt-10 tracking-tight mb-7">
@@ -79,18 +78,20 @@ const Laelia = () => {
           px]:flex-col"
         >
           <Image
-            src="/images/scarf1.jpg"
-            alt="laelia-logo"
+            src="/images/scarf-left.jpg"
+            alt="scarf"
             width={500}
             height={400}
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            className='w-full h-auto'
+            sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 780px) calc(40.91vw + 81px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
-            src="/images/scarf2.jpg"
-            alt="laelia-logo"
+            src="/images/scarf-right.jpg"
+            alt="scarf"
             width={500}
             height={400}
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            className='w-full h-auto'
+            sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 780px) calc(40.91vw + 81px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
       </div>
@@ -103,12 +104,12 @@ const Laelia = () => {
           the album cover in Berlin, Germany. Modeled by Blue Davidson
         </p>
         <Image
-          src="/images/promise.jpg"
-          alt="laelia-logo"
+          src="/images/keep-your-promise.jpg"
+          alt="keep your promise"
           width={500}
           height={500}
-          className="mb-7 mt-7"
-          sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+          className="w-6/12 h-auto mt-7 mb-7dd"
+          sizes="(min-width: 540px) 500px, calc(90.91vw + 27px)"
         />
       </div>
       <div className="w-full bg-[#ff5300] h-screen md:h-auto flex flex-col max-[1000px]:flex-col max-[1000px]:h-auto">
@@ -116,7 +117,7 @@ const Laelia = () => {
           <h2 className="font-didact text-4xl font-extrabold mt-5 tracking-wider">
             Gila Monster Print
           </h2>
-          <p className="font-didact text-2xl font-extrabold mt-10 tracking-tight md:ml-5 md:mr-5 w-7/12 text-center">
+          <p className="font-didact text-2xl font-extrabold mt-2 tracking-tight md:ml-5 md:mr-5 w-7/12 text-center">
             I made a fabric print inspired by the desert of the western United
             States. I have done little to no intra-US travel but the desert is
             somewhere I have always wanted to go. I decided the gila monster is
@@ -129,38 +130,39 @@ const Laelia = () => {
         </div>
         <div className="flex flex-row justify-start max-[1000px]:flex-col">
           <Image
-            src="/images/gila1.jpg"
-            alt="laelia-logo"
+            src="/images/gila-monster-print-left.jpg"
+            alt="gila monster"
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
+            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
             priority
           />
           <Image
-            src="/images/gila2.jpg"
-            alt="laelia-logo"
+            src="/images/gila-monster-print-right.jpg"
+            alt="gila monster"
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
         <div className="w-full bg-white flex flex-row justify-center mt-10 max-[1000px]:flex-col">
           <Image
-            src="/images/gila-girl.jpg"
-            alt="laelia-logo"
+            src="/images/gila-monster-girl.jpg"
+            alt="gila monster girl"
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
-            src="/images/gila-dress.jpg"
-            alt="laelia-logo"
+            src="/images/gila-monster-dress.jpg"
+            alt="gila monster dress"
             width={500}
             height={500}
             className="mb-7 mt-7 items-start"
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
         <div className="flex flex-col items-center max-[1000px]:flex-col">
@@ -170,20 +172,20 @@ const Laelia = () => {
           </h2>
           <div className="flex flex-row gap-5 max-[100px]:flex-col">
             <Image
-              src="/images/creams1.jpg"
-              alt="laelia-logo"
+              src="/images/creams-left.jpg"
+              alt="creams"
               width={500}
               height={400}
-              className="mb-7 mt-7 items-start"
-              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+              
+              sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 880px) 50vw, (min-width: 460px) calc(5vw + 377px), calc(71.43vw + 86px)"
             />
             <Image
-              src="/images/creams2.jpg"
-              alt="laelia-logo"
+              src="/images/creams-right.jpg"
+              alt="creams"
               width={500}
               height={400}
-              className="mb-7 mt-7 items-start"
-              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+              dd
+              sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 880px) 50vw, (min-width: 460px) calc(5vw + 377px), calc(71.43vw + 86px)"
             />
           </div>
         </div>
@@ -203,18 +205,18 @@ const Laelia = () => {
         </p>
         <div className="flex flex-row gap-2 mt-7 max-[1000px]:flex-col">
           <Image
-            src="/images/gila1.jpg"
-            alt="laelia-logo"
+            src="/images/tree-print-left.jpg"
+            alt="tree-print"
             width={500}
             height={500}
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            sizes="(min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
-            src="/images/gila1.jpg"
-            alt="laelia-logo"
+              src="/images/tree-print-right.jpg"
+              alt="tree-print"
             width={300}
             height={200}
-            sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+            sizes="300px"
           />
         </div>
 
@@ -225,19 +227,19 @@ const Laelia = () => {
           <div className="flex flex-row justify-center max-[1000px]:flex-col">
             <Image
               src="/images/tree-girl.jpg"
-              alt="laelia-logo"
+              alt="tree girl"
               width={500}
               height={500}
               className="mb-7 mt-7 items-start"
-              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+              sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
             />
             <Image
-              src="/images/tree-dress.jpg"
-              alt="laelia-logo"
+              src="/images/tree-skirt.jpg"
+              alt="tree skirt"
               width={500}
               height={500}
               className="mb-7 mt-7 items-start"
-              sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
+              sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
             />
           </div>
         </div>
