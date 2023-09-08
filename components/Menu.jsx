@@ -17,7 +17,7 @@ const Menu = () => {
     <div className="fixed top-0 left-0 bg-white right-0 shadow-md p-4 z-50"
 
     >
-<div className="flex flex-row justify-between mx-20 items-center ">
+<div className="flex flex-row justify-between mx-20 items-center max-[1000px]:mx-0">
       <ul>
         <li>
           <a href="/" className="text-2xl my-5 mx-5 font-custom list-none">
@@ -32,7 +32,7 @@ const Menu = () => {
           className="fixed inset-0 z-50 flex"
           style={{
             backgroundColor: "rgba(240, 240, 240, 0.5)",
-            width: window.innerWidth < 1000 ? "60%" : "33.33%",
+            width: window.innerWidth < 1000 ? "70%" : "33.33%",
             height: "100%",
             right: "0",
             backdropFilter: "blur(5px)",

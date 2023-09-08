@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
         <div
           className="fixed inset-0 z-50 flex"
           style={{
-            color: "white",
+            color: "black",
             backgroundColor: "rgba(240, 240, 240, 0.5)",
             width: window.innerWidth < 1000 ? "60%" : "33.33%",
             height: "100%",

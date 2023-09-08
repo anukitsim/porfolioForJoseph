@@ -13,8 +13,8 @@ const Laelia = () => {
 
   return (
     <main className="flex flex-col gap-5 container mx-auto max-[100px]:flex max-[1000px]:flex-col max-[1000px]:gap-10">
-      <div className="w-full h-screen flex flex-col md:flex-row gap-20 max-[1000px]:flex-col">
-        <div className="md:w-5/12 flex items-center">
+      <div className="w-full h-screen flex flex-col md:flex-row gap-5 max-[1000px]:flex-col">
+        <div className="md:w-6/12 flex items-center">
           <p className="text-4xl">
             {" "}
             <span className="text-8xl">
@@ -33,13 +33,14 @@ const Laelia = () => {
             </span>{" "}
           </p>
         </div>
-        <div className="md:w-7/12 relative max-[1000px]:flex-col">
+        <div className="md:w-6/12 relative max-[1000px]:flex-col">
           <Image
             src="/images/laelia-logo.jpg"
             alt="laelia-logo"
             width={500}
             height={500}
-            sizes="(min-width: 1960px) 849px, (min-width: 1040px) 43.33vw, (min-width: 780px) 401px, (min-width: 680px) 640px, calc(94.44vw + 17px)"
+            sizes="(min-width: 1280px) 500px, (min-width: 1040px) calc(18.64vw + 265px), (min-width: 780px) 401px, (min-width: 540px) 500px, calc(90.91vw + 27px)" 
+            className="w-full h-auto"
             priority
           />
         </div>
