@@ -59,6 +59,11 @@ export default function RootLayout({ children }) {
             }}
           >
             <ul className="space-y-4 text-4xl font-didact list-none">
+            <li className="hover:scale-125">
+                  <a href="/" onClick={closeMenu}>
+                    Home
+                  </a>
+                </li>
               <li className="hover:scale-125">
                 <a href="/about" onClick={closeMenu}>
                   About

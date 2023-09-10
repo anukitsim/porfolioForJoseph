@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <div className="fixed top-0 left-0 bg-[#3f8bc3] right-0 shadow-md p-4 z-50"
 
 >
-        <div className="flex flex-row justify-between mx-20 items-center">
+        <div className="flex flex-row justify-between mx-20 items-center max-[1000px]:mx-0">
       <ul>
         <li>
           <a href="/" className="text-2xl my-5 mx-5 font-custom list-none text-black">
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         <div
           className="fixed inset-0 z-50 flex"
           style={{
-            color: "white",
+            color: "black",
             backgroundColor: "rgba(240, 240, 240, 0.5)",
             width: window.innerWidth < 1000 ? "60%" : "33.33%",
             height: "100%",
@@ -60,6 +60,11 @@ export default function RootLayout({ children }) {
             }}
           >
             <ul className="space-y-4 text-4xl font-didact list-none">
+            <li className="hover:scale-125">
+                  <a href="/" onClick={closeMenu}>
+                    Home
+                  </a>
+                </li>
               <li className="hover:scale-125">
                 <a href="/about" onClick={closeMenu}>
                   About
@@ -86,7 +91,7 @@ export default function RootLayout({ children }) {
       )}
     </div>
         </div>
-        <div className="w-10/12 h-screen m-auto mt-20">{children}</div>
+        <div className="w-10/12 h-screen m-auto mt-32">{children}</div>
       </body>
     </html>
   );

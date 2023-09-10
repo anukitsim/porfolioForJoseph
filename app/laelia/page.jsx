@@ -65,7 +65,7 @@ const Laelia = () => {
           alt="butterfly"
           width={400}
           height={400}
-          className='mt-7 mb-7'
+          className="mt-7 mb-7"
           sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
         />
         <h2 className="w-6/12 ffont-didact text-2xl mt-10 tracking-tight mb-7">
@@ -82,7 +82,7 @@ const Laelia = () => {
             alt="scarf"
             width={500}
             height={400}
-            className='w-full h-auto'
+            className="w-full h-auto"
             sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 780px) calc(40.91vw + 81px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
@@ -90,7 +90,7 @@ const Laelia = () => {
             alt="scarf"
             width={500}
             height={400}
-            className='w-full h-auto'
+            className="w-full h-auto"
             sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 780px) calc(40.91vw + 81px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
@@ -128,22 +128,21 @@ const Laelia = () => {
             and made it into a dress
           </p>
         </div>
-        <div className="flex flex-row justify-start max-[1000px]:flex-col">
+        <div className="flex flex-row justify-start gap-2 max-[1000px]:flex-col">
           <Image
             src="/images/gila-monster-print-left.jpg"
             alt="gila monster"
             width={500}
             height={500}
-            className="mb-7 mt-7 items-start"
+            className="w-6/12 h-auto mt-16"
             sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
-            priority
           />
           <Image
             src="/images/gila-monster-print-right.jpg"
             alt="gila monster"
             width={500}
             height={500}
-            className="mb-7 mt-7 items-start"
+            className="mt-24 mb-7 w-5/12 h-auto"
             sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
@@ -153,7 +152,7 @@ const Laelia = () => {
             alt="gila monster girl"
             width={500}
             height={500}
-            className="mb-7 mt-7 items-start"
+            className="w-full h-auto"
             sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
@@ -161,22 +160,22 @@ const Laelia = () => {
             alt="gila monster dress"
             width={500}
             height={500}
-            className="mb-7 mt-7 items-start"
+            className="w-full h-auto mt-7"
             sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
-        <div className="flex flex-col items-center max-[1000px]:flex-col">
+        <div className="flex flex-col items-center mt-7 max-[1000px]:flex-col">
           <h2 className="font-didact text-2xl font-bold mt-5 w-6/12 text-center">
             Shot and styled by me in Berlin, Germany. Modeled by Creams (May
             2023)
           </h2>
-          <div className="flex flex-row gap-5 max-[100px]:flex-col">
+          <div className="flex flex-row gap-5 mt-7 max-[100px]:flex-col">
             <Image
               src="/images/creams-left.jpg"
               alt="creams"
               width={500}
               height={400}
-              
+              className='w-full h-auto mb-7'
               sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 880px) 50vw, (min-width: 460px) calc(5vw + 377px), calc(71.43vw + 86px)"
             />
             <Image
@@ -184,7 +183,7 @@ const Laelia = () => {
               alt="creams"
               width={500}
               height={400}
-              dd
+              className='w-full h-auto mb-7'
               sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 880px) 50vw, (min-width: 460px) calc(5vw + 377px), calc(71.43vw + 86px)"
             />
           </div>
@@ -209,13 +208,15 @@ const Laelia = () => {
             alt="tree-print"
             width={500}
             height={500}
+            className="w-full h-auto mt-16"
             sizes="(min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
-              src="/images/tree-print-right.jpg"
-              alt="tree-print"
-            width={300}
-            height={200}
+            src="/images/tree-print-right.jpg"
+            alt="tree-print"
+            width={500}
+            height={500}
+            className="w-full h-auto mt-24 mb-7"
             sizes="300px"
           />
         </div>
@@ -230,7 +231,7 @@ const Laelia = () => {
               alt="tree girl"
               width={500}
               height={500}
-              className="mb-7 mt-7 items-start"
+              className="w-full h-auto"
               sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
             />
             <Image
@@ -238,7 +239,7 @@ const Laelia = () => {
               alt="tree skirt"
               width={500}
               height={500}
-              className="mb-7 mt-7 items-start"
+              className="w-full h-auto"
               sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
             />
           </div>
