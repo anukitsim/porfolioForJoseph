@@ -29,7 +29,7 @@ const Menu = () => {
           <div
             className="fixed inset-0 z-50 flex"
             style={{
-              backgroundColor: "rgba(240, 240, 240, 0.5)",
+              backgroundColor: "rgba(240, 240, 240, 0.8)",
               width: window.innerWidth < 1000 ? "70%" : "33.33%",
               height: "100%",
               right: "0",
