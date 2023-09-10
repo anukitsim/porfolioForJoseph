@@ -15,8 +15,8 @@ const About = () => {
         />
       </div>
       <div className="w-6/12 flex flex-col items-center gap-y-10  text-center font-bold justify-center max-[1000px]:w-full">
-        <h1 className="font-custom text-9xl">Joseph McCain</h1>
-        <p className="font-didact font-bold text-4xl max-[1000px]:text-left">
+        <h1 className="font-custom text-9xl max-[1000px]:lg max-[1000px]:ml-5 max-[1000px]:mr-5">Joseph McCain</h1>
+        <p className="font-didact font-bold text-4xl max-[1000px]:text-left max-[1000px]:ml-0">
           I am a 20 year old fourth-year NYU student from Wilmington, Delaware
           currently pusruing a dual-degree in Creative Production and Politics.
           I have two

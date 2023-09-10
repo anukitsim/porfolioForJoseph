@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <div>
           <Menu />
         </div>
-        <div className="w-10/12 h-screen m-auto max-[1000px]:m-0 max-[1000px]:w-full">{children}</div>
+        <div className="w-10/12 h-screen m-auto max-[1000px]:m-0 max-[1000px]:mt-20 max-[1000px]:w-full">{children}</div>
       </body>
     </html>
   );

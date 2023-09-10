@@ -13,7 +13,7 @@ const Laelia = () => {
 
   return (
     <main className="flex flex-col gap-5">
-      <div className="flex flex-row mt-10">
+      <div className="flex flex-row mt-10 max-[1000px]:flex-col">
         <div className="md:w-6/12 flex items-center">
           <p className="text-4xl">
             <span className="text-8xl">
@@ -32,14 +32,14 @@ const Laelia = () => {
             </span>
           </p>
         </div>
-        <div className="md:w-6/12 relative max-[1000px]:flex-col">
+        <div className="md:w-6/12 relative max-[1000px]:flex-col max-[1000px]:w-full">
           <Image
             src="/images/laelia-logo.jpg"
             alt="laelia-logo"
             width={500}
             height={500}
             sizes="(min-width: 1280px) 500px, (min-width: 1040px) calc(18.64vw + 265px), (min-width: 780px) 401px, (min-width: 540px) 500px, calc(90.91vw + 27px)"
-            className="w-full h-auto"
+            className="w-full h-auto max-[1000px]:w-full"
             priority
           />
         </div>
@@ -68,7 +68,7 @@ const Laelia = () => {
           className="mt-7 mb-7"
           sizes="(min-width: 440px) 400px, calc(83.33vw + 50px)"
         />
-        <h2 className="w-6/12 ffont-didact text-2xl mt-10 tracking-tight mb-7">
+        <h2 className="w-6/12 ffont-didact text-2xl mt-10 tracking-tight mb-7 max-[1000px]:w-full">
           Dragonfly Scarf Shot in New York City by Dean Holmes. Modeled by
           Ashley Franklin, Annika Santhanam, and Dia Darko. Creative direction
           by me. (February 2022)
@@ -99,7 +99,7 @@ const Laelia = () => {
         <h2 className="font-didact text-4xl font-extrabold mt-5 tracking-wider">
           Keep your Promise
         </h2>
-        <p className="font-didact text-2xl font-extrabold mt-10 tracking-tight md:ml-5 md:mr-5 w-5/12">
+        <p className="font-didact text-2xl font-extrabold mt-10 tracking-tight md:ml-5 md:mr-5 w-5/12 max-[1000px]:w-full">
           2 song EP-- writing, vocals, and guitar by me. I also styled and shot
           the album cover in Berlin, Germany. Modeled by Blue Davidson
         </p>
@@ -117,7 +117,7 @@ const Laelia = () => {
           <h2 className="font-didact text-4xl font-extrabold mt-5 tracking-wider">
             Gila Monster Print
           </h2>
-          <p className="font-didact text-2xl font-extrabold mt-2 tracking-tight md:ml-5 md:mr-5 w-7/12 text-center">
+          <p className="font-didact text-2xl font-extrabold mt-2 tracking-tight md:ml-5 md:mr-5 w-7/12 text-center max-[1000px]:w-full">
             I made a fabric print inspired by the desert of the western United
             States. I have done little to no intra-US travel but the desert is
             somewhere I have always wanted to go. I decided the gila monster is
@@ -134,7 +134,7 @@ const Laelia = () => {
             alt="gila monster"
             width={500}
             height={500}
-            className="w-6/12 h-auto mt-16"
+            className="w-6/12 h-auto mt-16 max-[1000px]:w-full"
             sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
           <Image
@@ -142,7 +142,7 @@ const Laelia = () => {
             alt="gila monster"
             width={500}
             height={500}
-            className="mt-24 mb-7 w-5/12 h-auto"
+            className="mt-24 mb-7 w-5/12 h-auto max-[1000px]:w-full"
             sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
           />
         </div>
@@ -169,7 +169,7 @@ const Laelia = () => {
             Shot and styled by me in Berlin, Germany. Modeled by Creams (May
             2023)
           </h2>
-          <div className="flex flex-row gap-5 mt-7 max-[100px]:flex-col">
+          <div className="flex flex-row gap-5 mt-7 max-[1000px]:flex-col">
             <Image
               src="/images/creams-left.jpg"
               alt="creams"
@@ -193,7 +193,7 @@ const Laelia = () => {
         <h2 className="font-didact text-4xl font-extrabold mt-5 tracking-wider">
           Tree Print
         </h2>
-        <p className="font-didact text-2xl font-extrabold mt-10 tracking-tight md:ml-5 md:mr-5 w-7/12 text-center">
+        <p className="font-didact text-2xl font-extrabold mt-10 tracking-tight md:ml-5 md:mr-5 w-7/12 text-center max-[1000px]:w-full">
           In the summer of 2023 I spent a lot of time at home after getting back
           from a year in Berlin. I decide to make a moodboard every day using
           only pictures I took of my backyard. The serenity of the creek behind
