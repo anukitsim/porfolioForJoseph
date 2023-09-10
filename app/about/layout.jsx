@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#ffecb4]">
-      <div className="fixed top-0 left-0 bg-[#ffecb4] right-0 shadow-md p-4 z-50"
+      <div className="fixed top-0 left-0 bg-rgba(240, 240, 240, 0.5) right-0 shadow-md p-4 z-50"
 
 >
         <div className="flex flex-row justify-between mx-20 items-center max-[1000px]:mx-0">
