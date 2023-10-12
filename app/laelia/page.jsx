@@ -38,7 +38,7 @@ const Laelia = () => {
             alt="laelia-logo"
             width={500}
             height={500}
-            sizes="(min-width: 1280px) 500px, (min-width: 1040px) calc(18.64vw + 265px), (min-width: 780px) 401px, (min-width: 540px) 500px, calc(90.91vw + 27px)"
+            sizes="(min-width: 1020px) 41.67vw, (min-width: 780px) 50vw, 100vw"
             className="w-full h-auto max-[1000px]:w-full"
             priority
           />
@@ -109,7 +109,7 @@ const Laelia = () => {
           width={500}
           height={500}
           className="w-6/12 h-auto mt-7 mb-7dd"
-          sizes="(min-width: 540px) 500px, calc(90.91vw + 27px)"
+          sizes="(min-width: 1020px) 41.67vw, 50vw"
         />
       </div>
       <div className="w-full bg-[#ff5300] h-screen md:h-auto flex flex-col max-[1000px]:flex-col max-[1000px]:h-auto">
@@ -135,7 +135,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="w-6/12 h-auto mt-16 max-[1000px]:w-full"
-            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
+            sizes="(min-width: 1020px) 41.67vw, 100vw"
           />
           <Image
             src="/images/gila-monster-print-right.jpg"
@@ -143,7 +143,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="mt-24 mb-7 w-5/12 h-auto max-[1000px]:w-full"
-            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
+            sizes="(min-width: 1020px) 34.75vw, 100vw"
           />
         </div>
         <div className="w-full bg-white flex flex-row justify-center mt-10 max-[1000px]:flex-col">
@@ -153,7 +153,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="w-full h-auto"
-            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
+            sizes="(min-width: 1020px) 41.67vw, 100vw"
           />
           <Image
             src="/images/gila-monster-dress.jpg"
@@ -161,7 +161,7 @@ const Laelia = () => {
             width={500}
             height={500}
             className="w-full h-auto mt-7"
-            sizes="(min-width: 1300px) 500px, (min-width: 1020px) calc(28.85vw + 131px), (min-width: 540px) 500px, calc(90.91vw + 27px)"
+            sizes="(min-width: 1020px) 41.67vw, 100vw"
           />
         </div>
         <div className="flex flex-col items-center mt-7 max-[1000px]:flex-col">
@@ -170,22 +170,28 @@ const Laelia = () => {
             2023)
           </h2>
           <div className="flex flex-row gap-5 mt-7 max-[1000px]:flex-col">
+            <div>
             <Image
               src="/images/creams-left.jpg"
               alt="creams"
               width={500}
-              height={400}
+              height={500}
               className='w-full h-auto mb-7'
-              sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 880px) 50vw, (min-width: 460px) calc(5vw + 377px), calc(71.43vw + 86px)"
+              sizes="(min-width: 1420px) 500px, (min-width: 1020px) calc(22.37vw + 187px), (min-width: 900px) 25vw, (min-width: 480px) calc(4.75vw + 178px), calc(31.25vw + 56px)"
             />
+            </div>
+            <div>
             <Image
               src="/images/creams-right.jpg"
               alt="creams"
               width={500}
-              height={400}
+              height={500}
               className='w-full h-auto mb-7'
-              sizes="(min-width: 1320px) 500px, (min-width: 1020px) calc(30.36vw + 105px), (min-width: 880px) 50vw, (min-width: 460px) calc(5vw + 377px), calc(71.43vw + 86px)"
+              sizes="(min-width: 1420px) 500px, (min-width: 1020px) calc(22.37vw + 187px), (min-width: 900px) 25vw, (min-width: 480px) calc(4.75vw + 178px), calc(31.25vw + 56px)"
             />
+            </div>
+         
+           
           </div>
         </div>
       </div>
